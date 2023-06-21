@@ -1,9 +1,11 @@
 #include "main.h"
-
 /**
- * print_alphabet - print alphabet of letters
+ * _isalpha - main function
  *
- * Return: 1 if tur, 0 if false
+ * @c: character to compare
+ *
+ * Return: 1 if true, 0 if false
+ *
  */
 
 int _isalpha(int c)
