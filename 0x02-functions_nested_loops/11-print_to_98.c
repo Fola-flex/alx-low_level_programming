@@ -2,6 +2,14 @@
 #include "6-abs.c"
 #include <stdio.h>
 
+/**
+ * print_to_98 - print natural numbers
+ *
+ * @n: natural number
+ * Description: Function that prints all natural numbers from n to 98
+ * Return: Nothing
+ */
+
 void print_to_98(int n)
 {
 	int i;
