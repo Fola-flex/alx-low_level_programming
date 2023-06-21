@@ -3,17 +3,14 @@
 /**
  * print_alphabet - print alphabet of letters
  *
- * Return: void
+ * Return: 1 if tur, 0 if false
  */
 
-void print_alphabet(void)
+int _isalpha(int c)
 {
-	int i;
-
-	for (i = 'a'; i <= 'z'; i++)
-
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		_putchar(i);
+		return (1);
 	}
-	_putchar('\n');
+	return (0);
 }
