@@ -1,1 +1,1 @@
-This is a repository for learning C language
+Folder which contains various C commands
